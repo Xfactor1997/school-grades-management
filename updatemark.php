@@ -15,7 +15,7 @@ session_start();
 
 <head>
     <title>Update Record</title>
-    <link rel="stylesheet" href="../csss/updatemark.css" type="text/css">
+    <link rel="stylesheet" href="./updatemark.css" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Flamenco" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 
@@ -64,7 +64,7 @@ session_start();
                     <?php
             if(isset($_POST['submit']))
             {
-                include('../dbcon.php');
+                include('./dbcon.php');
                 $class=$_POST['class'];
                 $rollno=$_POST['rollno'];
                 
