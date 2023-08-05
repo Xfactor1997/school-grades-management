@@ -15,7 +15,7 @@ session_start();
 
 <head>
     <title>Messages</title>
-    <link rel="stylesheet" href="./usermassage.css" type="text/css">
+    <link rel="stylesheet" href="usermassage.css" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Flamenco" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 
@@ -26,7 +26,7 @@ session_start();
         <nav>
             <div class="row clearfix">
                 <ul class="main-nav" animate slideInDown>
-                    <li><a href="./index.php">HOME</a></li>
+                    <li><a href="index.php">HOME</a></li>
                     <li><a href="aboutus.php">ABOUT</a></li>
                     <li><a href="contactus.php">CONTACT</a></li>
                     <li class="logout"><a href="admindash.php">ADMIN DASHBOARD</a></li>
@@ -46,7 +46,7 @@ session_start();
                     </tr>
 
                     <?php
-include('../dbcon.php');
+include('dbcon.php');
   $sql="SELECT * FROM `user_massage`";
   $run=mysqli_query($conn,$sql);
   if(mysqli_num_rows($run)>=0)
