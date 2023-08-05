@@ -15,7 +15,7 @@ session_start();
 
 <head>
     <title>Delete Mark</title>
-    <link rel="stylesheet" href="../csss/updatemark.css" type="text/css">
+    <link rel="stylesheet" href="./updatemark.css" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Flamenco" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 
@@ -26,7 +26,7 @@ session_start();
         <nav>
             <div class="row clearfix">
                 <ul class="main-nav" animate slideInDown>
-                    <li><a href="../index.php">Home</a></li>
+                    <li><a href="./index.php">Home</a></li>
                     <li><a href="aboutus.php">About Us</a></li>
                     <li><a href="contactus.php">Contact Us</a></li>
                     <li class="logout"><a href="admindash.php">Dashboard</a></li>
@@ -59,7 +59,7 @@ session_start();
                     <?php
             if(isset($_POST['submit']))
             {
-                include('../dbcon.php');
+                include('./dbcon.php');
                 $class=$_POST['class'];
                 $rollno=$_POST['rollno'];
                 
