@@ -1,6 +1,6 @@
 <?php
 
-include('./dbcon.php');
+include('dbcon.php');
     $rollno=$_REQUEST['sid']; 
     
     $sql1="DELETE FROM `user_mark` WHERE `u_rollno`='$rollno';";
