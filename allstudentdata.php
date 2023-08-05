@@ -15,7 +15,7 @@ session_start();
 
 <head>
     <title>All Student Detail</title>
-    <link rel="stylesheet" href="./allstudentdata.css" type="text/css">
+    <link rel="stylesheet" href="allstudentdata.css" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Flamenco" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 
@@ -26,7 +26,7 @@ session_start();
         <nav>
             <div class="row clearfix">
                 <ul class="main-nav" animate slideInDown>
-                    <li><a href="./index.php"><b>HOME</b></a></li>
+                    <li><a href="index.php"><b>HOME</b></a></li>
                     <li><a href="aboutus.php"><b>ABOUT</b></a></li>
                     <li><a href="contactus.php"><b>CONTACT</b></a></li>
                     <li class="logout"><a href="admindash.php"><b>ADMIN DASHBOARD</b></a></li>
