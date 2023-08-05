@@ -1,7 +1,7 @@
 <?php
 if(isset($_POST['submit']))
 {
-include('../dbcon.php');
+include('./dbcon.php');
     $rollno=$_POST['rollno'];
     $hindi1=$_POST['hindi1'];
     $english1=$_POST['english1'];
