@@ -2,7 +2,7 @@
 
 <head>
     <title>Contact</title>
-    <link rel="stylesheet" href="./contactus.css" type="text/css">
+    <link rel="stylesheet" href="contactus.css" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Flamenco" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 
@@ -13,10 +13,10 @@
         <nav>
             <div class="row clearfix">
                 <ul class="main-nav" animate slideInDown>
-                    <li><a href="./index.php">HOME</a></li>
+                    <li><a href="index.php">HOME</a></li>
                     <li><a href="aboutus.php">ABOUT</a></li>
                     <li><a href="contactus.php">CONTACT</a></li>
-                    <li><a href="./login.php">ADMIN LOGIN</a></li>
+                    <li><a href="login.php">ADMIN LOGIN</a></li>
                 </ul>
             </div>
         </nav>
@@ -67,7 +67,7 @@
 <?php
 if(isset($_POST['submit']))
 {
-    include('./dbcon.php');
+    include('dbcon.php');
     $username=$_POST['name'];
     $email=$_POST['email'];
     $contact=$_POST['cont'];
