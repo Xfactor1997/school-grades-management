@@ -21,7 +21,7 @@ $data2=mysqli_fetch_assoc($run);
 
 <head>
     <title>Result</title>
-    <link rel="stylesheet" href="csss/result.css" type="text/css">
+    <link rel="stylesheet" href="/result.css" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Flamenco" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 
@@ -33,8 +33,8 @@ $data2=mysqli_fetch_assoc($run);
             <div class="row clearfix">
                 <ul class="main-nav" animate slideInDown>
                     <li><a href="index.php"><b>HOME</b></a></li>
-                    <li><a href="admin/aboutus.php"><b>ABOUT</b></a></li>
-                    <li><a href="admin/contactus.php"><b>CONTACT</b></a></li>
+                    <li><a href="/aboutus.php"><b>ABOUT</b></a></li>
+                    <li><a href="/contactus.php"><b>CONTACT</b></a></li>
                     <li><a href="login.php"><b>ADMIN LOGIN</b></a></li>
                 </ul>
             </div>
