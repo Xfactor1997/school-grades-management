@@ -9,7 +9,7 @@ session_start();
 				{
 					header('location: ../login.php');
 				}
-require_once('./dbcon.php');
+require_once('dbcon.php');
 
                 
 ?>
@@ -18,7 +18,7 @@ require_once('./dbcon.php');
 
 <head>
     <title>Add Marks</title>
-    <link rel="stylesheet" href="./addmark.css" type="text/css">
+    <link rel="stylesheet" href="addmark.css" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Flamenco" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 
@@ -30,7 +30,7 @@ require_once('./dbcon.php');
             <div class="row clearfix">
                 <ul class="main-nav" animate slideInDown>
                     <li class="logout"><a href="admindash.php">Dashboard</a></li>
-                    <li><a href="../index.php">Home</a></li>
+                    <li><a href="index.php">Home</a></li>
                     <li><a href="aboutus.php">About</a></li>
                     <li><a href="contactus.php">Contact</a></li>
                 </ul>
@@ -42,7 +42,7 @@ require_once('./dbcon.php');
                 <table class="table1">
                     <tr>
                         <th>Name </th>
-                        <th> Class</th>
+                        <th>Class</th>
                         <th>Roll No</th>
                     </tr>
                     <tr>
@@ -55,7 +55,7 @@ require_once('./dbcon.php');
                 <table class="table2">
                     <tr>
                         <th>father Name </th>
-                        <th> Mother Name</th>
+                        <th>Mother Name</th>
                         <th>Mobile No</th>
                         <th>Your City</th>
                     </tr>
