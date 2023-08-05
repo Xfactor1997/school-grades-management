@@ -12,7 +12,7 @@ session_start();
 				
 ?>
 <?php
-include('./dbcon.php');
+include('dbcon.php');
 $rollno=$_GET['sid'];
 
 
